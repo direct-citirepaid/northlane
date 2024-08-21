@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Latar belakang hitam */
+  color: #fff; /* Warna teks putih */
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Tinggi penuh tampilan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Tinggi penuh tampilan */
+}
+
+.card {
+  background-color: rgba(51, 51, 51, 0.8); /* Warna card dengan transparansi */
+  padding: 20px;
+  border-radius: 8px; /* Sudut membulat pada card */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Bayangan putih pada card */
+  text-align: center;
+  max-width: 90%; /* Lebar maksimal card lebih lebar */
+  width: 100%;
+}
+
+.logo {
+  max-width: 300px; /* Lebar maksimal gambar yang lebih besar */
+  height: auto; /* Menjaga rasio aspek gambar */
+  margin-bottom: 20px; /* Jarak antara gambar dan teks */
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#timer {
+  font-weight: bold;
+}
